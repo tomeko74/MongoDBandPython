@@ -25,9 +25,7 @@ def find_account_by_email(email: str) -> Owner:
     return owner
 
 
-def register_cage(active_account: Owner,
-                  name, allow_dangerous, has_toys,
-                  carpeted, meters, price) -> Cage:
+def register_cage(active_account: Owner, name, allow_dangerous, has_toys, carpeted, meters, price) -> Cage:
     cage = Cage()
 
     cage.name = name
